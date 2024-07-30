@@ -5,6 +5,7 @@ import Home from './Componants/Home'
 import MyNavBar from './Componants/MyNavBar'
 import About from './Componants/About'
 import Contact from './Componants/Contact'
+import MyState from './MyState'
 
 function App() {
 
@@ -21,6 +22,8 @@ function App() {
         <Contact />
 
       </section>
+      <MyState/>
+
     </>
   )
 }
