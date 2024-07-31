@@ -6,6 +6,7 @@ import MyNavBar from './Componants/MyNavBar'
 import About from './Componants/About'
 import Contact from './Componants/Contact'
 import MyState from './MyState'
+import MyForm from './MyForm'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
       </section>
       <section id="contact">
         <Contact />
-
+        <MyForm/>
       </section>
       <MyState/>
 
