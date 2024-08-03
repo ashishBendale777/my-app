@@ -7,12 +7,14 @@ import About from './Componants/About'
 import Contact from './Componants/Contact'
 import MyState from './MyState'
 import MyForm from './MyForm'
+import RoutingNavBar from './Componants/RoutingNavBar'
+import MyRoutes from './Componants/MyRoutes'
 
 function App() {
 
   return (
     <>
-      <MyNavBar />
+      {/* <MyNavBar />
       <section id="home">
         <Home />
       </section>
@@ -23,8 +25,10 @@ function App() {
         <Contact />
         <MyForm/>
       </section>
-      <MyState/>
+      <MyState/> */}
 
+      {/* <RoutingNavBar/> */}
+      <MyRoutes />
     </>
   )
 }
